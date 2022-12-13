@@ -9,7 +9,7 @@ min_height_react= 80
 
 count_line_postition = 550
 #Initialize Substructor
-algo= cv2.bgsegm.BackgroundSubtractorMOG()
+algo= cv2.bgsegm.createBackgroundSubtractorMOG()
 
 
 def center_handle(x,y,w,h):
